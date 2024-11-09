@@ -16,5 +16,84 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{kaggle}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=88c58ac4e37bcf6c34b3ec955a6db407}{%
+           family={Elmetwally},
+           familyi={E\bibinitperiod},
+           given={Tawfik},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{fullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{bibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{authorbibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{authornamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{authorfullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Base De Dados Kaggle}
+      \field{title}{Car information dataset}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{kaggle}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=88c58ac4e37bcf6c34b3ec955a6db407}{%
+           family={Elmetwally},
+           familyi={E\bibinitperiod},
+           given={Tawfik},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{fullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{bibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{authorbibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{authornamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \strng{authorfullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Base De Dados Kaggle}
+      \field{title}{Car information dataset}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
