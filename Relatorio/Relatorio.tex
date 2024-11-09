@@ -143,20 +143,20 @@ nos Estados Unidos da América.
 
 Por fim, a nossa teoria é que a Crise do Petróleo influenciou a produção e 
 desenvolvimento dos carros entre os anos 1970 e 1980, alterando o motor e por consequência a sua aceleração, eficiência e consumo.
-
+%---------------------------------------------------------------------------------------------------------------------------
 \section{Metodologia de Trabalho}\label{met}
 Para o desenvolvimento deste trabalho foi utilizado o \textit{Github} para a partilha de código e documentação,
 o \textit{Visual Studio Code} como IDE de desenvolvimento, o \textit{Excel - PowerQuery} ferramenta principal de tratamento
 e análise de dados e por fim, o \textit{SQL Server Managment} para a criação da Dataware House. 
-
+%---------------------------------------------------------------------------------------------------------------------------
 \section{ETL}\label{etl}
 O trabalho de ETL foi realizado em 3 fases, a primeira foi a extração dos dados, 
 a segunda a transformação e por fim a inserção dos dados em tabelas dinâmicas.
-
+%---------------------------------------------------------------------------------------------------------------------------
 \subsection{Extração de Dados}
 Os dados foram extraídos de um ficheiro \textit{.csv} que foi encontrado no Kaggle (\cite{kaggle}) e 
 importados para o \textit{Excel} utilizando o PowerQuery.
-
+%---------------------------------------------------------------------------------------------------------------------------
 \subsection{Transformação de Dados}
 Com o auxílio do PowerQuery foi possível transformar os dados, e foram encontrados diversos problemas,
 como por exemplo, a presença de valores nulos, duplicados e a necessidade de alterar o tipo de dados de algumas colunas.
@@ -172,42 +172,80 @@ a evolução da eficiência dos carros ao longo dos anos e ainda a evolução da
 Para isso, o Excel possuí opção de selecionar a visualição dos dados por ano, por país e por marca.
 Isso foi feito pensando na segmentação dos dados, para que seja possível visualizar os dados de forma mais clara e objetiva.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=6cm]{Recursos/MilhasPorGalaoGrafico.png} % Substitua pelo caminho da imagem
-    \vspace{0.5cm}
-\end{figure}
+\newpage
+%---------------------------------------------------------------------------------------------------------------------------
+
+\subsubsection{Milhas Por Galão}
+É possível verificar que a eficiência dos carros tem vindo a aumentar ao longo dos anos,
+sendo que em 1970 a eficiência média era de 17.5 milhas por galão e em 1982 a eficiência média 
+era superior a 30 milhas por galão. Ao contrário da medida Europeia, em que é utilizada a unidade de medida
+Litros por 100 km, nos Estados Unidos é utilizada a unidade de medida Milhas por Galão, logo quanto maior o valor
+maior a eficiência do carro.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=6cm]{Recursos/CavalagemGrafico.png} % Substitua pelo caminho da imagem
+    \includegraphics[width=1\textwidth]{Recursos/MilhasPorGalaoGrafico.png} % Substitua pelo caminho da imagem
     \vspace{0.5cm}
+    \label{fig:mpg}
+    \caption{Milhas por galão ao longo dos anos}
 \end{figure}
+\newpage
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+
+\subsubsection{Cavalagem}
+É possível verificar que a cavagem dos carros tem diminuido ao longo dos anos, sendo esse um dos motivos
+que influenciou a melhoria da eficiência dos carros, pois quanto maior a cavalagem maior o consumo de combustível.
+Em 1970 a cavalagem média era de cerca de 150 cavalos e em 1982 a cavalagem média era de cerca de 80 cavalos.
+É uma diminuição significativa, que mostra que os carros têm vindo a ser produzidos com motores mais eficientes em termos
+de eficiência de combustível, porém sacrificando a sua velocidade e aceleração.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=6cm]{Recursos/AceleraçãoMediaGrafico.png} % Substitua pelo caminho da imagem
+    \includegraphics[width=1\textwidth]{Recursos/CavalagemGrafico.png} % Substitua pelo caminho da imagem
     \vspace{0.5cm}
+    \label{fig:cavg}
+    \caption{Cavalagem ao longo dos anos}
 \end{figure}
 
+\newpage
+%---------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Aceleração Média}
+É possível verificar que com a diminuição da cavalagem, o tempo de aceleração dos 0 às 60 milhas por hora dos carros tem vindo a 
+aumentar ao longo dos anos, sendo que em 1970 o tempo médio era de cerca de 13 segundos e em 1982 o tempo médio
+era de cerca de 16 segundos.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{Recursos/AceleraçãoMediaGrafico.png} % Substitua pelo caminho da imagem
+    \vspace{0.5cm}
+    \label{fig:accmg}
+    \caption{Aceleração ao longo dos anos}
+\end{figure}
+\newpage
+%---------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Número de Veículos}
+No gráfico é possível verificar que o número de veículos tem estado estável ao longo dos anos, apesar de 
+algumas oscilações, mostrando que o setor automóvel conseguiu adaptar-se à crise do petróleo e manter a produção
+de veículos estável. Algumas marcas aumentaram a sua produção, enquanto outras diminuiram.
+No entanto, algumas marcas surgiram e outras desapareceram, mostrando que o setor automóvel é muito dinâmico e
+está sempre a mudar.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=6cm]{Recursos/NVeiculosGrafico.png} % Substitua pelo caminho da imagem
+    \includegraphics[width=1\textwidth]{Recursos/NVeiculosGrafico.png} % Substitua pelo caminho da imagem
     \vspace{0.5cm}
+    \label{fig:nveig}
+    \caption{Número de veículos ao longo dos anos}
 \end{figure}
-
-
-
-
+%---------------------------------------------------------------------------------------------------------------------------
 \section{Criação da Dataware House}\label{dwh}
 
 
-
+%---------------------------------------------------------------------------------------------------------------------------
 \section{Contexto Global}\label{cg}
 
-
-\section{Conclusões e Perspectivas de Trabalho Futuro}\label{con}
+%---------------------------------------------------------------------------------------------------------------------------\section{Conclusões e Perspectivas de Trabalho Futuro}\label{con}
 Texto das conclusões.
 
 \newpage
