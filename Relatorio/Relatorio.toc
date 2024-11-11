@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3}ETL}{1}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Extração de Dados}{1}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Transformação de Dados}{2}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Inserção de Dados}{2}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Visualização de Dados}{2}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Milhas Por Galão}{3}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Cavalagem}{4}{subsubsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}Aceleração Média}{5}{subsubsection.3.3.3}%

@@ -106,6 +106,11 @@
         % Autores
         \large Martinho José Novo Caeiro - 23917 \\
         \large Paulo António Tavares Abade - 23919 \\
+
+        \vspace{2cm}
+
+        % Orientador
+        \large Orientador: Professora Isabel Sofia Brito \\
         
         \vfill
         
@@ -158,16 +163,23 @@ a segunda a transformação e por fim a inserção dos dados em tabelas dinâmic
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Extração de Dados}
 Os dados foram extraídos de um ficheiro \textit{.csv} que foi encontrado no Kaggle (\cite{kaggle}) e no US Department of Energy (\cite{usdoe}), 
-estes foram importados para o \textit{Excel} utilizando o PowerQuery.
+estes foram importados para o \textit{Excel} utilizando o PowerQuery. Foram ambos importados para o Excel e unidos numa única tabela.
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Transformação de Dados}
 Com o auxílio do PowerQuery foi possível transformar os dados, e foram encontrados diversos problemas,
 como por exemplo, a presença de valores nulos, duplicados e a necessidade de alterar o tipo de dados de algumas colunas.
-Ainda foram encontrados problemas com a formatação dos dados, como por exemplo, a presença de vírgulas em vez de pontos.
+Ainda foram encontrados problemas com a formatação dos dados, como por exemplo, a presença de vírgulas em vez de pontos. 
+Estes erros ocorreram nas colunas de: Milhas por Galão, Cilindros, Cavalagem, Aceleração e Preço da Gasolina.
+Para resolver estes problemas foi necessário alterar o tipo de dados das colunas, remover os valores nulos e duplicados e substituir as vírgulas por pontos.
+Existia alguns nomes com sinónimos, como por exemplo, "Chevrolet" e "Chevy", "Volkswagen" e "VW", "Datsun" e "Nissan", e alguns até mesmo mal escritos, 
+como por exemplo, "Volkswagen" e "Vokswagen" ou "Mazda" e "Maxda".
+Foi necessário transformar quase todos os campos para o tipo de dados correto, como por exemplo, a cavalagem para inteiro, 
+a aceleração para decimal e o preço da gasolina para decimal.
+As colunas originais eram: Nome, Milhas por Galão, Cilindros, Cilindrada, Cavalagem, Peso, Aceleração, Ano de Fabrico e País de Origem.
 O nome das colunas também foi alterado para facilitar a sua identificação e foram adicionadas novas colunas para facilitar a análise
-e permitir a criação de tabelas dinâmicas, sendo que as novas colunas são: Marca e Modelo.
+e permitir a criação de tabelas dinâmicas, sendo que as novas colunas são: Marca, Modelo e Preço da Gasolina.
 
-\subsection{Inserção de Dados}
+\subsection{Visualização de Dados}
 Utilizando as tabelas dinâmicas do Excel, foi possível visualizar os dados de forma mais clara e objetiva,
 para isso, foram utilizados gráficos dinâmicos onde é possível visualizar a evolução dos carros ao longo dos anos,
 a evolução da eficiência dos carros ao longo dos anos e ainda a evolução da eficiência dos carros por país.
