@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  11 NOV 2024 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  11 NOV 2024 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1025,57 +1025,55 @@ l.139 \newpage
 [1]
 
 [2]
-
-[3]
-<Recursos/MilhasPorGalaoGrafico.png, id=120, 1193.96063pt x 359.84438pt>
+<Recursos/MilhasPorGalaoGrafico.png, id=116, 1193.96063pt x 359.84438pt>
 File: Recursos/MilhasPorGalaoGrafico.png Graphic file (type png)
 <use Recursos/MilhasPorGalaoGrafico.png>
-Package pdftex.def Info: Recursos/MilhasPorGalaoGrafico.png  used on input line 210.
+Package pdftex.def Info: Recursos/MilhasPorGalaoGrafico.png  used on input line 211.
 (pdftex.def)             Requested size: 501.90312pt x 151.26538pt.
 
-Overfull \hbox (83.64944pt too wide) in paragraph at lines 210--213
+Overfull \hbox (83.64944pt too wide) in paragraph at lines 211--214
 [][] 
  []
 
 
 
-[4 <./Recursos/MilhasPorGalaoGrafico.png>]
-<Recursos/CavalagemGrafico.png, id=128, 1107.38719pt x 418.56375pt>
+[3 <./Recursos/MilhasPorGalaoGrafico.png>]
+<Recursos/CavalagemGrafico.png, id=123, 1107.38719pt x 418.56375pt>
 File: Recursos/CavalagemGrafico.png Graphic file (type png)
 <use Recursos/CavalagemGrafico.png>
-Package pdftex.def Info: Recursos/CavalagemGrafico.png  used on input line 229.
+Package pdftex.def Info: Recursos/CavalagemGrafico.png  used on input line 230.
 (pdftex.def)             Requested size: 418.25368pt x 158.08508pt.
 
 
-[5 <./Recursos/CavalagemGrafico.png>]
-<Recursos/AceleraçãoMediaGrafico.png, id=134, 807.015pt x 420.06938pt>
+[4 <./Recursos/CavalagemGrafico.png>]
+<Recursos/AceleraçãoMediaGrafico.png, id=130, 807.015pt x 420.06938pt>
 File: Recursos/AceleraçãoMediaGrafico.png Graphic file (type png)
 <use Recursos/AceleraçãoMediaGrafico.png>
-Package pdftex.def Info: Recursos/AceleraçãoMediaGrafico.png  used on input line 243.
+Package pdftex.def Info: Recursos/AceleraçãoMediaGrafico.png  used on input line 244.
 (pdftex.def)             Requested size: 418.25368pt x 217.71303pt.
 
 
-[6 <./Recursos/AceleraçãoMediaGrafico.png>]
-<Recursos/NVeiculosGrafico.png, id=140, 864.98157pt x 517.935pt>
+[5 <./Recursos/AceleraçãoMediaGrafico.png>]
+<Recursos/NVeiculosGrafico.png, id=136, 864.98157pt x 517.935pt>
 File: Recursos/NVeiculosGrafico.png Graphic file (type png)
 <use Recursos/NVeiculosGrafico.png>
-Package pdftex.def Info: Recursos/NVeiculosGrafico.png  used on input line 259.
+Package pdftex.def Info: Recursos/NVeiculosGrafico.png  used on input line 260.
 (pdftex.def)             Requested size: 418.25368pt x 250.43947pt.
 
 
-[7 <./Recursos/NVeiculosGrafico.png>]
-<Recursos/DiagramaCrisePetroleo.png, id=146, 862.422pt x 448.67625pt>
+[6 <./Recursos/NVeiculosGrafico.png>]
+<Recursos/DiagramaCrisePetroleo.png, id=142, 862.422pt x 448.67625pt>
 File: Recursos/DiagramaCrisePetroleo.png Graphic file (type png)
 <use Recursos/DiagramaCrisePetroleo.png>
-Package pdftex.def Info: Recursos/DiagramaCrisePetroleo.png  used on input line 271.
+Package pdftex.def Info: Recursos/DiagramaCrisePetroleo.png  used on input line 272.
 (pdftex.def)             Requested size: 418.25368pt x 217.59402pt.
 
 
-[8 <./Recursos/DiagramaCrisePetroleo.png>]
+[7 <./Recursos/DiagramaCrisePetroleo.png>]
 
-[9]
+[8]
 
-[10] (Relatorio.aux)
+[9] (Relatorio.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -1087,17 +1085,17 @@ Package logreq Info: Writing requests to 'Relatorio.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36571 strings out of 473899
- 735960 string characters out of 5726499
- 1596255 words of memory out of 5000000
+ 36570 strings out of 473899
+ 735953 string characters out of 5726499
+ 1596251 words of memory out of 5000000
  58911 multiletter control sequences out of 15000+600000
  566935 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,7n,107p,816b,2805s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\amant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\amant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\amant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\amant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\amant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\amant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\amant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk>
-Output written on Relatorio.pdf (13 pages, 360135 bytes).
+Output written on Relatorio.pdf (12 pages, 359434 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
