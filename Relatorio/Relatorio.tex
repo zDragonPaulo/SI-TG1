@@ -164,6 +164,12 @@ a segunda a transformação e por fim a inserção dos dados em tabelas dinâmic
 \subsection{Extração de Dados}
 Os dados foram extraídos de um ficheiro \textit{.csv} que foi encontrado no Kaggle (\cite{kaggle}) e no US Department of Energy (\cite{usdoe}), 
 estes foram importados para o \textit{Excel} utilizando o PowerQuery. Foram ambos importados para o Excel e unidos numa única tabela.
+\\
+Ao extrair os dados para a mesma tabela, ocorreu um erro com o PowerQuery onde este não permitia adicionar
+a tabela dos preços da gasolina, sendo que essa teve que ser adicionada manualmente. Foi escolhido ficar com o ano
+considerando apenas os últimos dois digitos, pois a análise do preço da gasolina é feita entre 1970 e 1982, e o ano de fabrico dos carros
+é considerado entre 70 e 82.
+
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Transformação de Dados}
 Com o auxílio do PowerQuery foi possível transformar os dados, e foram encontrados diversos problemas,
@@ -196,6 +202,8 @@ sendo que em 1970 a eficiência média era de 17.5 milhas por galão e em 1982 a
 era superior a 30 milhas por galão. Ao contrário da medida Europeia, em que é utilizada a unidade de medida
 Litros por 100 km, nos Estados Unidos é utilizada a unidade de medida Milhas por Galão, logo quanto maior o valor
 maior a eficiência do carro.
+Se for comparado com o gráfico do preço da gasolina, é possível verificar que a eficiência dos carros aumentou
+quando o preço da gasolina aumentou, mostrando que a eficiência dos carros está diretamente relacionada com o preço da gasolina.
 
 \begin{figure}[h!]
     \raggedright
