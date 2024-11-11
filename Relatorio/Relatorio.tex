@@ -31,6 +31,8 @@
 \usepackage{soul}
 \usepackage{afterpage}
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\onehalfspacing
+
 
 % Comando para criar uma página vazia
 \newcommand\myemptypage{
@@ -120,12 +122,58 @@
 }
 
 \begin{document}
+
+
 \pagenumbering{gobble} % Oculta numeração da página
 
 % Primeira página de título
 \firsttitlepage
 
 \secondtitlepage
+
+
+% Abstract
+\section*{\LARGE\textbf{\textit{Resumo}}}
+
+Este trabalho consiste na análise de informações relativas a carros entre os anos 1970 e 1982, compreender a sua evolução 
+e como a Crise do Petróleo influenciou a produção e desenvolvimento dos carros, 
+alterando o motor e por consequência a sua aceleração, eficiência e consumo. 
+Para tal, foi utilizada uma base de dados com 393 entradas, com 9 atributos iniciais, 
+sendo estes: Milha por Galão, Cilindros, Cilindrada, Cavalagem, Peso, Aceleração, Ano de Fabrico, 
+País de Origem e o Nome Completo do Carro. 
+Ainda foi utilizada outra base de dados que indica o preço médio de combustível por ano, entre 1970 e 1982, 
+nos Estados Unidos da América. O desenvolvimento necessitou da utilização do Excel, PowerQuery e SQL Server Management, para a criação de uma Data Warehouse. 
+A nossa teoria é que a Crise do Petróleo influenciou a produção e o desenvolvimento dos carros entre os anos 1970 e 1980, alterando o motor e por consequência a sua aceleração, eficiência e consumo.
+
+
+
+
+\vspace{1cm}
+% Keywords
+\textbf{Keywords:} excel, powerquery, sql, data warehouse, etl, olap, eficiência, análise de dados, crise do petróleo, carros,
+cavalagem, aceleração, eficiência, consumo, milhas por galão, cilindros, cilindrada, preço da gasolina.
+\newpage
+%--------------------------------------------------------------------------------------------------------------------------------------
+
+\section*{\LARGE\textbf{\textit{Abstract}}}
+
+This work consists of analyzing information relating to cars between the years 1970 and 1982, understanding their evolution 
+and how the Oil Crisis influenced the production and development of cars, 
+changing the engine and consequently its acceleration, efficiency and consumption. 
+To this end, a database with 393 entries was used, with 9 initial attributes, 
+these being: Mile per Gallon, Cylinders, Displacement, Horsepower, Weight, Acceleration, Year of Manufacture, 
+Country of Origin and Full Name of the Car. 
+Another database was used that indicates the average price of fuel per year, between 1970 and 1982, 
+in the United States of America. The development required the use of Excel, PowerQuery and SQL Server Management, to create a Data Warehouse. 
+Our theory is that the Oil Crisis influenced the production and development of cars between the 1970s and 1980s, changing the engine and consequently its acceleration, efficiency and consumption.
+
+
+
+
+\vspace{1cm}
+% Keywords
+\textbf{Keywords:} excel, powerquery, sql, data warehouse, etl, olap, efficiency, data analysis, oil crisis, cars,
+horsepower, acceleration, efficiency, consumption, miles per gallon, cylinders, displacement, gasoline price.
 \renewcommand{\contentsname}{Índice}       % Título do sumário
 \renewcommand{\listfigurename}{Índice de Figuras} % Título da lista de figuras
 
@@ -153,7 +201,7 @@ Por fim, a nossa teoria é que a Crise do Petróleo influenciou a produção e
 desenvolvimento dos carros entre os anos 1970 e 1980, alterando o motor e por consequência a sua aceleração, eficiência e consumo.
 %---------------------------------------------------------------------------------------------------------------------------
 \section{Metodologia de Trabalho}\label{met}
-Para o desenvolvimento deste trabalho foi utilizado o \textit{Github} para a partilha de código e documentação,
+Para o desenvolvimento deste trabalho foi utilizado o \textit{Github} (\cite{github}) para a partilha de código e documentação,
 o \textit{Visual Studio Code} como IDE de desenvolvimento, o \textit{Excel - PowerQuery} ferramenta principal de tratamento
 e análise de dados e por fim, o \textit{SQL Server Management} para a criação da Data Warehouse. 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -168,8 +216,9 @@ Os dados foram extraídos de um ficheiro \textit{.csv} que foi encontrado no Kag
 estes foram importados para o \textit{Excel} utilizando o PowerQuery. Foram ambos importados para o Excel e unidos numa única tabela.
 \\
 Ao extrair os dados para a mesma tabela, ocorreu um erro com o PowerQuery onde este não permitia adicionar
-a tabela dos preços da gasolina, sendo que essa teve que ser adicionada manualmente. Foi escolhido ficar com o ano
-considerando apenas os últimos dois digitos, pois a análise do preço da gasolina é feita entre 1970 e 1982, e o ano de fabrico dos carros
+a tabela dos preços da gasolina, sendo que essa teve que ser adicionada manualmente devido à escassez de tempo e à ausência de soluções em Fóruns como a própria
+\textit{Microsoft} (\cite{microsofthelp}), \textit{Stack Overflow} (\cite{stackoverflow}) e por fim no \textit{ChatGPT} (\cite{chatgpt}). Foi escolhido ficar com o ano
+considerando apenas os últimos dois digitos, pois na base de dados do preço da gasolina os anos estão entre 1970 e 1982, e na outra base de dados o ano de fabrico dos carros
 é considerado entre 70 e 82.
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -208,7 +257,7 @@ quando o preço da gasolina aumentou, mostrando que a eficiência dos carros est
 
 \begin{figure}[h!]
     \raggedright
-    \includegraphics[width=1.2\textwidth]{Recursos/MilhasPorGalaoGrafico.png} % Substitua pelo caminho da imagem
+    \includegraphics[width=1.2\textwidth]{Recursos/MilhasPorGalaoGrafico.png}
     \vspace{0.5cm}
     \label{fig:mpg}
     \caption{Milhas por galão ao longo dos anos}
@@ -264,8 +313,29 @@ está sempre a mudar.
 \end{figure}
 \newpage
 %---------------------------------------------------------------------------------------------------------------------------
-\section{Criação da Dataware House}\label{dwh}
-Esta é a nossa proposta de uma Data Warehouse para dada a nossa análise dos dados.
+\section{Criação da Data Warehouse}\label{dwh}
+\subsection{Metodologia}
+O layout da nossa Data Warehouse segue um modelo em estrela ou floco de neve, onde a Tabela de Fato centraliza os dados principais que serão analisados 
+(neste caso, métricas como eficiência em combustível, potência, aceleração, etc.) e as Tabelas de Dimensão contêm os atributos contextuais que descrevem as 
+características e permitem a segmentação (ex.: ano de fabricação, país de origem). Este layout é vantajoso pois facilita o desempenho das consultas ao 
+isolar as medidas principais na tabela fato e os atributos descritivos em tabelas de dimensão, também flexibiliza as análises temporais e comparativas 
+ao permitir juntar rapidamente informações, com por exemplo, a eficiência dos carros de diferentes anos e origens.
+
+A Tabela de Fato inclui medidas numéricas (ex.: MPG, cavalagem, aceleração) que podem ser quantificadas e agregadas para gerar insights como médias anuais 
+e tendências de eficiência. Isso justifica o agrupamento de métricas centrais (como MPG e cavalagem) na tabela fato, pois são o foco das análises e comparações, 
+minimizando a redundância, evitando-se a repetição de dados de contexto (ex.: país ou ano) em todas as entradas, economizando armazenamento e simplificando a estrutura.
+
+As Tabelas de Dimensão, como Ano, País de Origem, e Preço da Gasolina, foram estruturadas para facilitar a segmentação dos dados. A razão para isso inclui a
+eficácia em segmentar e filtrar os dados, assim pode-se observar, por exemplo, a produção automóvel de diferentes países face o aumento dos preços de combustível, e o
+relacionamento entre tabelas, pois cada Tabela de Dimensão é ligada à Tabela de Fato por uma chave (ex.: ano e país), o que permite consultas rápidas e eficazes.
+
+O layout do diagrama, estruturado para destacar as relações entre atributos de fato e de dimensão, foi feito de forma a facilitar a leitura das relações e dependências 
+entre as tabelas, e oferecer flexibilidade para ajustes futuros dado que a organização em um modelo de estrela permite expandir facilmente a Data Warehouse, 
+seja adicionando novas métricas (novas colunas na Tabela de Fato) ou novas dimensões (novas Tabelas de Dimensão).
+
+\newpage
+\subsection{Diagrama da Data Warehouse}
+Assim sendo, esta é a nossa proposta de uma Data Warehouse, dada a nossa análise dos dados.
 
 \begin{figure}[h!]
     \centering
@@ -276,8 +346,21 @@ Esta é a nossa proposta de uma Data Warehouse para dada a nossa análise dos da
 \end{figure}
 \newpage
 %---------------------------------------------------------------------------------------------------------------------------
+\section{Operações OLAP para Análise de Dados}\label{olap}
+Foram realizadas operações OLAP, que é a capacidade para manipular e analisar grandes quantidades de dados sob diferentes perspetivas (\cite{moodle}), 
+sendo que foram utilizadas as operações de Drill-Down, Roll-Up, Slice e Dice:
+\begin{itemize}
+    \item \textbf{Drill-Down}: Foi utilizado, por exemplo, para analisar a eficiência em milhas por galão dos carros ao longo dos anos,
+    mas ainda assim podendo analisar a eficiência dos carros por país de origem e por marca.
+    \item \textbf{Roll-Up}: Esta operação é a inversa da anterior, onde é utilizada ao estar a analisar a eficiência dos carros por país 
+    de origem e por marca, o utilizador pode depois analisar a eficiência dos carros ao longo dos anos, independentemente do país de origem e da marca.    
+    \item \textbf{Slice}: É utilizado quando é desejado analisar apenas uma fatia da informação, por exemplo, analisar apenas entre 1970 e 1975.
+    \item \textbf{Dice}: É utilizado quando o utilizador quer, por exemplo, verificar quais marcas americanas produziram carros entre 1971 e 1979 e 
+    verificar a eficiência dos mesmos, seja em aceleração, cavalagem ou autonomia de milhas por galão. 
+\end{itemize}
+\newpage
+%---------------------------------------------------------------------------------------------------------------------------
 \section{Contexto Global}\label{cg}
-As Crises Petrolíferas de 1973 e 1979 dão contexto às mudanças drasticas nos automóveis que foram visualizadas anteriormente.
 
 A Crise Petrolífera de 1973 (\cite{pet73}) teve início em outubro de 1973 quando os membros da 
 Organização dos Países Árabes Exportadores de Petróleo (OPAEP), que compreende os membros árabes da 
@@ -292,7 +375,8 @@ Mais tarde, foi chamada o "primeiro choque do petróleo", seguido pela crise do 
 A Crise Petrolífera de 1979 (\cite{pet79}) ocorreu no mundo devido à diminuição da produção de petróleo após a Revolução Iraniana. 
 Apesar das reservas globais de petróleo terem diminuido pouco, o pânico generalizado resultou em uma elevação brusca do preço, 
 que aumentou para 39,50 dólares por barril nos 12 meses seguintes, o que formou longas filas em postos de gasolina, como na crise petrolífera de 1973.
-
+%---------------------------------------------------------------------------------------------------------------------------
+\section{Conclusão}\label{con}
 Estas Crises Petrolíferas fizeram com que os fabricantes de automóveis tivessem de se adaptar e produzir carros mais eficientes, estas adaptações para 
 veiculos americanos foram dificeis, cujos quais eram conhecidos por serem grandes e terem motores grandes que gastam muito combustível,
 tiveram a sua potencia drasticamente diminuida ao ponto dos modelos desportivos serem considerados muito lentos para a sua categoria.

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,44 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{kaggle}{online}{}{}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{moodle}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=822490a9eb059d79b0868d7cf601e28f}{%
+           family={Brito},
+           familyi={B\bibinitperiod},
+           given={Isabel\bibnamedelima Sofia},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{fullhash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{bibnamehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{authorbibnamehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{authornamehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{authorfullhash}{822490a9eb059d79b0868d7cf601e28f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Informações Dispobilizadas na Plataforma Moodle}
+      \field{title}{Data Warehouse}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cms.ipbeja.pt/pluginfile.php/191039/mod_resource/content/2/OLAP2024.pdf
+      \endverb
+      \verb{url}
+      \verb https://cms.ipbeja.pt/pluginfile.php/191039/mod_resource/content/2/OLAP2024.pdf
+      \endverb
+    \endentry
+    \entry{kaggle}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=88c58ac4e37bcf6c34b3ec955a6db407}{%
            family={Elmetwally},
@@ -30,12 +66,10 @@
       }
       \strng{namehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{fullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
-      \strng{fullhashraw}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{bibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{authorbibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{authornamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{authorfullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
-      \strng{authorfullhashraw}{88c58ac4e37bcf6c34b3ec955a6db407}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -57,7 +91,145 @@
       \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
       \endverb
     \endentry
-    \entry{usdoe}{online}{}{}
+    \entry{github}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1eb1e6a0a5559a642b065410388dac3a}{%
+           family={Martinho\bibnamedelima Caeiro},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Paulo\bibnamedelima Abade},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{fullhash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{bibnamehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{authorbibnamehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{authornamehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{authorfullhash}{1eb1e6a0a5559a642b065410388dac3a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Repositório do Trabalho Prático 1}
+      \field{title}{Trabalho Prático 1 - Repositório de Código}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/zDragonPaulo/SI-TG1
+      \endverb
+      \verb{url}
+      \verb https://github.com/zDragonPaulo/SI-TG1
+      \endverb
+    \endentry
+    \entry{microsofthelp}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ajuda da Microsoft}
+      \field{title}{Microsoft Help}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.microsoft.com
+      \endverb
+      \verb{url}
+      \verb https://support.microsoft.com
+      \endverb
+    \endentry
+    \entry{chatgpt}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ChatGPT}
+      \field{title}{ChatGPT}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://chatgpt.com
+      \endverb
+    \endentry
+    \entry{stackoverflow}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=928a3e3d99440ed892dda5028159a3aa}{%
+           family={Overflow},
+           familyi={O\bibinitperiod},
+           given={Stack},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{fullhash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{bibnamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authorbibnamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authornamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authorfullhash}{928a3e3d99440ed892dda5028159a3aa}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Soluções para Programadores}
+      \field{title}{Stack Overflow}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackoverflow.com
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com
+      \endverb
+    \endentry
+    \entry{usdoe}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7f6cd5b5b184ad5dcf66198edda1fe77}{%
            family={US\bibnamedelima Department\bibnamedelima of\bibnamedelima Energy},
@@ -65,12 +237,10 @@
       }
       \strng{namehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{fullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
-      \strng{fullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{bibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authorbibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authornamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authorfullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
-      \strng{authorfullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -92,7 +262,7 @@
       \verb https://afdc.energy.gov/data/10641
       \endverb
     \endentry
-    \entry{pet73}{online}{}{}
+    \entry{pet73}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=030bd0fa2faebea3a5543e5242f1569f}{%
            family={Wikipédia},
@@ -100,12 +270,10 @@
       }
       \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{fullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{authorfullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
@@ -129,7 +297,7 @@
       \verb https://pt.wikipedia.org/wiki/Crise_petrol%C3%ADfera_de_1973
       \endverb
     \endentry
-    \entry{pet79}{online}{}{}
+    \entry{pet79}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=030bd0fa2faebea3a5543e5242f1569f}{%
            family={Wikipédia},
@@ -137,12 +305,10 @@
       }
       \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{fullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{authorfullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
@@ -167,8 +333,44 @@
       \endverb
     \endentry
   \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{kaggle}{online}{}{}
+  \datalist[entry]{apa/global//global/global}
+    \entry{moodle}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=822490a9eb059d79b0868d7cf601e28f}{%
+           family={Brito},
+           familyi={B\bibinitperiod},
+           given={Isabel\bibnamedelima Sofia},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{fullhash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{bibnamehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{authorbibnamehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{authornamehash}{822490a9eb059d79b0868d7cf601e28f}
+      \strng{authorfullhash}{822490a9eb059d79b0868d7cf601e28f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Informações Dispobilizadas na Plataforma Moodle}
+      \field{title}{Data Warehouse}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cms.ipbeja.pt/pluginfile.php/191039/mod_resource/content/2/OLAP2024.pdf
+      \endverb
+      \verb{url}
+      \verb https://cms.ipbeja.pt/pluginfile.php/191039/mod_resource/content/2/OLAP2024.pdf
+      \endverb
+    \endentry
+    \entry{kaggle}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=88c58ac4e37bcf6c34b3ec955a6db407}{%
            family={Elmetwally},
@@ -179,12 +381,10 @@
       }
       \strng{namehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{fullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
-      \strng{fullhashraw}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{bibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{authorbibnamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{authornamehash}{88c58ac4e37bcf6c34b3ec955a6db407}
       \strng{authorfullhash}{88c58ac4e37bcf6c34b3ec955a6db407}
-      \strng{authorfullhashraw}{88c58ac4e37bcf6c34b3ec955a6db407}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -206,7 +406,145 @@
       \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
       \endverb
     \endentry
-    \entry{usdoe}{online}{}{}
+    \entry{github}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1eb1e6a0a5559a642b065410388dac3a}{%
+           family={Martinho\bibnamedelima Caeiro},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Paulo\bibnamedelima Abade},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{fullhash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{bibnamehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{authorbibnamehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{authornamehash}{1eb1e6a0a5559a642b065410388dac3a}
+      \strng{authorfullhash}{1eb1e6a0a5559a642b065410388dac3a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Repositório do Trabalho Prático 1}
+      \field{title}{Trabalho Prático 1 - Repositório de Código}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/zDragonPaulo/SI-TG1
+      \endverb
+      \verb{url}
+      \verb https://github.com/zDragonPaulo/SI-TG1
+      \endverb
+    \endentry
+    \entry{microsofthelp}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ajuda da Microsoft}
+      \field{title}{Microsoft Help}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.microsoft.com
+      \endverb
+      \verb{url}
+      \verb https://support.microsoft.com
+      \endverb
+    \endentry
+    \entry{chatgpt}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ChatGPT}
+      \field{title}{ChatGPT}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://chatgpt.com
+      \endverb
+    \endentry
+    \entry{stackoverflow}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=928a3e3d99440ed892dda5028159a3aa}{%
+           family={Overflow},
+           familyi={O\bibinitperiod},
+           given={Stack},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{fullhash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{bibnamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authorbibnamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authornamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authorfullhash}{928a3e3d99440ed892dda5028159a3aa}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Soluções para Programadores}
+      \field{title}{Stack Overflow}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackoverflow.com
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com
+      \endverb
+    \endentry
+    \entry{usdoe}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7f6cd5b5b184ad5dcf66198edda1fe77}{%
            family={US\bibnamedelima Department\bibnamedelima of\bibnamedelima Energy},
@@ -214,12 +552,10 @@
       }
       \strng{namehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{fullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
-      \strng{fullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{bibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authorbibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authornamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authorfullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
-      \strng{authorfullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -241,7 +577,7 @@
       \verb https://afdc.energy.gov/data/10641
       \endverb
     \endentry
-    \entry{pet73}{online}{}{}
+    \entry{pet73}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=030bd0fa2faebea3a5543e5242f1569f}{%
            family={Wikipédia},
@@ -249,12 +585,10 @@
       }
       \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{fullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{authorfullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
@@ -278,7 +612,7 @@
       \verb https://pt.wikipedia.org/wiki/Crise_petrol%C3%ADfera_de_1973
       \endverb
     \endentry
-    \entry{pet79}{online}{}{}
+    \entry{pet79}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=030bd0fa2faebea3a5543e5242f1569f}{%
            family={Wikipédia},
@@ -286,12 +620,10 @@
       }
       \strng{namehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{fullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{fullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{bibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorbibnamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authornamehash}{030bd0fa2faebea3a5543e5242f1569f}
       \strng{authorfullhash}{030bd0fa2faebea3a5543e5242f1569f}
-      \strng{authorfullhashraw}{030bd0fa2faebea3a5543e5242f1569f}
       \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}

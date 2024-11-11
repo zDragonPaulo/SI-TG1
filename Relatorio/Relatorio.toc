@@ -9,6 +9,10 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Cavalagem}{4}{subsubsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}Aceleração Média}{5}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Número de Veículos}{6}{subsubsection.3.3.4}%
-\contentsline {section}{\numberline {4}Criação da Dataware House}{7}{section.4}%
-\contentsline {section}{\numberline {5}Contexto Global}{8}{section.5}%
-\contentsline {section}{Bibliografia}{9}{section.5}%
+\contentsline {section}{\numberline {4}Criação da Data Warehouse}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Metodologia}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Diagrama da Data Warehouse}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Operações OLAP para Análise de Dados}{9}{section.5}%
+\contentsline {section}{\numberline {6}Contexto Global}{10}{section.6}%
+\contentsline {section}{\numberline {7}Conclusão}{10}{section.7}%
+\contentsline {section}{Bibliografia}{11}{section.7}%
