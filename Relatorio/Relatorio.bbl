@@ -57,6 +57,41 @@
       \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
       \endverb
     \endentry
+    \entry{usdoe}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7f6cd5b5b184ad5dcf66198edda1fe77}{%
+           family={US\bibnamedelima Department\bibnamedelima of\bibnamedelima Energy},
+           familyi={U\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{bibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorbibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authornamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Preços dos Combustíveis}
+      \field{title}{Average Annual Retail Fuel Price of Gasoline}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://afdc.energy.gov/data/10641
+      \endverb
+      \verb{url}
+      \verb https://afdc.energy.gov/data/10641
+      \endverb
+    \endentry
     \entry{pet73}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=030bd0fa2faebea3a5543e5242f1569f}{%
@@ -169,6 +204,41 @@
       \endverb
       \verb{url}
       \verb https://www.kaggle.com/datasets/tawfikelmetwally/automobile-dataset/data
+      \endverb
+    \endentry
+    \entry{usdoe}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7f6cd5b5b184ad5dcf66198edda1fe77}{%
+           family={US\bibnamedelima Department\bibnamedelima of\bibnamedelima Energy},
+           familyi={U\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{bibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorbibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authornamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Preços dos Combustíveis}
+      \field{title}{Average Annual Retail Fuel Price of Gasoline}
+      \field{urlday}{11}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://afdc.energy.gov/data/10641
+      \endverb
+      \verb{url}
+      \verb https://afdc.energy.gov/data/10641
       \endverb
     \endentry
     \entry{pet73}{online}{}{}
