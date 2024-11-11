@@ -121,11 +121,14 @@
 \firsttitlepage
 
 \secondtitlepage
+\renewcommand{\contentsname}{Índice}       % Título do sumário
+\renewcommand{\listfigurename}{Índice de Figuras} % Título da lista de figuras
 
 % Início do conteúdo do relatório
 \newpage
 \doublespacing
 \tableofcontents
+\listoffigures
 \doublespacing
 
 \newpage
@@ -160,7 +163,7 @@ importados para o \textit{Excel} utilizando o PowerQuery.
 \subsection{Transformação de Dados}
 Com o auxílio do PowerQuery foi possível transformar os dados, e foram encontrados diversos problemas,
 como por exemplo, a presença de valores nulos, duplicados e a necessidade de alterar o tipo de dados de algumas colunas.
-Ainda foram encontrados problemas com a formatação dos dados, como por exemplo, a presenção de vírgulas em vez de pontos.
+Ainda foram encontrados problemas com a formatação dos dados, como por exemplo, a presença de vírgulas em vez de pontos.
 O nome das colunas também foi alterado para facilitar a sua identificação e foram adicionadas novas colunas para facilitar a análise
 e permitir a criação de tabelas dinâmicas, sendo que as novas colunas são: Marca e Modelo.
 
@@ -169,7 +172,7 @@ Utilizando as tabelas dinâmicas do Excel, foi possível visualizar os dados de 
 para isso, foram utilizados gráficos dinâmicos onde é possível visualizar a evolução dos carros ao longo dos anos,
 a evolução da eficiência dos carros ao longo dos anos e ainda a evolução da eficiência dos carros por país.
 \\
-Para isso, o Excel possuí opção de selecionar a visualição dos dados por ano, por país e por marca.
+Para isso, o Excel possuí opção de selecionar a visualização dos dados por ano, por país e por marca.
 Isso foi feito pensando na segmentação dos dados, para que seja possível visualizar os dados de forma mais clara e objetiva.
 
 \newpage
@@ -183,8 +186,8 @@ Litros por 100 km, nos Estados Unidos é utilizada a unidade de medida Milhas po
 maior a eficiência do carro.
 
 \begin{figure}[h!]
-    \centering
-    \includegraphics[width=1\textwidth]{Recursos/MilhasPorGalaoGrafico.png} % Substitua pelo caminho da imagem
+    \raggedright
+    \includegraphics[width=1.2\textwidth]{Recursos/MilhasPorGalaoGrafico.png} % Substitua pelo caminho da imagem
     \vspace{0.5cm}
     \label{fig:mpg}
     \caption{Milhas por galão ao longo dos anos}
@@ -195,7 +198,7 @@ maior a eficiência do carro.
 %---------------------------------------------------------------------------------------------------------------------------
 
 \subsubsection{Cavalagem}
-É possível verificar que a cavagem dos carros tem diminuido ao longo dos anos, sendo esse um dos motivos
+É possível verificar que a cavalagem dos carros tem diminuido ao longo dos anos, sendo esse um dos motivos
 que influenciou a melhoria da eficiência dos carros, pois quanto maior a cavalagem maior o consumo de combustível.
 Em 1970 a cavalagem média era de cerca de 150 cavalos e em 1982 a cavalagem média era de cerca de 80 cavalos.
 É uma diminuição significativa, que mostra que os carros têm vindo a ser produzidos com motores mais eficientes em termos
@@ -271,7 +274,7 @@ que aumentou para 39,50 dólares por barril nos 12 meses seguintes, o que formou
 
 Estas Crises Petrolíferas fizeram com que os fabricantes de automóveis tivessem de se adaptar e produzir carros mais eficientes, estas adaptações para 
 veiculos americanos foram dificeis, cujos quais eram conhecidos por serem grandes e terem motores grandes que gastam muito combustível,
-tirevam a sua potencia drasticamente diminuida ao ponto dos modelos desportivos serem considerados muito lentos para a sua categoria.
+tiveram a sua potencia drasticamente diminuida ao ponto dos modelos desportivos serem considerados muito lentos para a sua categoria.
 Os japoneses aproveitaram a situação pois já produziam carros mais pequenos e eficientes e decidiram começar a vender mais no mercado americano,
 aumentando a sua quota de mercado significativamente.
 %---------------------------------------------------------------------------------------------------------------------------
