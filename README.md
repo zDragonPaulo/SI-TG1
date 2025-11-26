@@ -102,3 +102,8 @@ Authors & contact
 - Martinho José Novo Caeiro — 23917
 - Paulo António Tavares Abade — 23919
 - Supervisor: Isabel Sofia Brito
+
+License
+-------
+- This repository is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
